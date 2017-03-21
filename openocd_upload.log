@@ -1,0 +1,83 @@
+Open On-Chip Debugger 0.10.0-dev-g9bab078 (2017-03-20-19:35)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+adapter speed: 10000 kHz
+Info : auto-selecting first available session transport "jtag". To override use 'transport select <transport>'.
+Info : ftdi: if you experience problems at higher adapter clocks, try the command "ftdi_tdo_sample_edge falling"
+Info : clock speed 10000 kHz
+Info : JTAG tap: riscv.cpu tap/device found: 0x10e31913 (mfg: 0x489 (<unknown>), part: 0x0e31, ver: 0x1)
+Info : Examined RISCV core; XLEN=32, misa=0x40001105
+riscv.cpu: target state: halted
+halted at 0x0 due to debug interrupt
+Info : Found flash device 'micron n25q128' (ID 0x0018ba20)
+cleared protection for sectors 64 through 255 on flash bank 0
+Info : JTAG tap: riscv.cpu tap/device found: 0x10e31913 (mfg: 0x489 (<unknown>), part: 0x0e31, ver: 0x1)
+riscv.cpu: target state: halted
+halted at 0x404 due to software breakpoint
+** Programming Started **
+auto erase enabled
+riscv.cpu: target state: halted
+halted at 0x80000004 due to software breakpoint
+riscv.cpu: target state: halted
+halted at 0x80000004 due to software breakpoint
+riscv.cpu: target state: halted
+halted at 0x80000004 due to software breakpoint
+riscv.cpu: target state: halted
+halted at 0x80000004 due to software breakpoint
+riscv.cpu: target state: halted
+halted at 0x80000004 due to software breakpoint
+riscv.cpu: target state: halted
+halted at 0x80000004 due to software breakpoint
+riscv.cpu: target state: halted
+halted at 0x80000004 due to software breakpoint
+riscv.cpu: target state: halted
+halted at 0x80000004 due to software breakpoint
+riscv.cpu: target state: halted
+halted at 0x80000004 due to software breakpoint
+riscv.cpu: target state: halted
+halted at 0x80000004 due to software breakpoint
+wrote 65536 bytes from file /home/ckdur/Documents/freedom-e-sdk/software/demo_gpio/demo_gpio in 0.763731s (83.799 KiB/s)
+** Programming Finished **
+** Verify Started **
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=1
+Info : Retrying memory read starting from 0x20400000 with more delays
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=2
+Info : Retrying memory read starting from 0x20400000 with more delays
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=3
+Info : Retrying memory read starting from 0x20400000 with more delays
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=4
+Info : Retrying memory read starting from 0x20400000 with more delays
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=5
+Info : Retrying memory read starting from 0x20400000 with more delays
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=6
+Info : Retrying memory read starting from 0x20400000 with more delays
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=7
+Info : Retrying memory read starting from 0x20400000 with more delays
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=8
+Info : Retrying memory read starting from 0x20400000 with more delays
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=9
+Info : Retrying memory read starting from 0x20400000 with more delays
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=10
+Info : Retrying memory read starting from 0x20400000 with more delays
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=12
+Info : Retrying memory read starting from 0x20400000 with more delays
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=14
+Info : Retrying memory read starting from 0x20400000 with more delays
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=16
+Info : Retrying memory read starting from 0x20400000 with more delays
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=18
+Info : Retrying memory read starting from 0x20400000 with more delays
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=20
+Info : Retrying memory read starting from 0x20400000 with more delays
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=23
+Info : Retrying memory read starting from 0x20400000 with more delays
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=26
+Info : Retrying memory read starting from 0x20400000 with more delays
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=29
+Info : Retrying memory read starting from 0x20400000 with more delays
+Info : dtmcontrol_idle=5, dbus_busy_delay=0, interrupt_high_delay=32
+Info : Retrying memory read starting from 0x20400000 with more delays
+verified 40372 bytes in 0.227209s (173.522 KiB/s)
+** Verified OK **
+halted at 0x20400004 due to step
